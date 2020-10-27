@@ -10,7 +10,7 @@ from nltk.tokenize import word_tokenize
 from collections import Counter
 
 
-# Received help from this website tp check file path https://www.simplifiedpython.net/python-get-files-in-directory/
+# Received help from this website tp check file path https://www.pythondaddy.com/python/reading-all-files-in-a-directory-with-python/
 def dataanalyzer():
     location = Path(r"C:\Users\zenya\PycharmProjects\Homework").rglob('*.csv')
     files = [x for x in location]
